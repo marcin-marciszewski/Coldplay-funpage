@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mylo Xyloto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="logo hvr-grow"><a href="index.html"><img src="../assets/coldplaylogo.jpg"></a></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="row">
+                    <ul id="nav" class="list in-line clearfix">
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="music.html" class=" hvr-shrink"><i class="glyphicon glyphicon-volume-up" aria-hidden="true"></i><span>Music</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3  menuitem">
+                            <a href="video.html" class=" hvr-shrink"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>Video</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="pictures.html" class=" hvr-shrink"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i><span>Pictures</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="concerts.html" class=" hvr-shrink"><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>Concerts</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 songs ">
+                <img src="../assets/covers/Myloxyloto.jpg">
+                <h1>Mylo Xyloto</h1>
+                <ul id="playlist">
+                    <li class="current-song"><a href="../mp3/Mylo Xyloto/Mylo Xyloto.mp3">Mylo Xyloto</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Coldplay - Hurts Like Heaven (Mylo Xyloto).mp3">Hurts Like Heaven</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Coldplay - Paradise (Official Video).mp3">Paradise</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Coldplay - Charlie Brown.mp3">Charlie Brown</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Us Against The World.mp3">Us Against the World</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/M.M.I.X.mp3">M.M.I.X</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Coldplay - Every Teardrop Is A Waterfall (Official).mp3">Every Teardrop Is a Waterfall</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Major Minus.mp3">Major Minus</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/U.F.O.mp3">U.F.O.</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Princess Of China.mp3">Princess of China</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Coldplay - Up In Flames.mp3.crdownload">Up in Flames</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/A Hopeful Transmission.mp3">A Hopeful Transmission</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Don't Let It Break Your Heart.mp3">Don't Let It Break Your Heart</a></li>
+                    <li><a href="../mp3/Mylo Xyloto/Up With The Birds.mp3">Up with the Birds</a></li>
+
+                </ul>
+                  <div class="row">
+                    <div class="col-xs-12 audio-player">
+                        <audio src="" controls id="audioPlayer"></audio>
+
+                        <script>
+                            audioPlayer();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Our social</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#"><i class="log1 fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log2 fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log3 fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log4 fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

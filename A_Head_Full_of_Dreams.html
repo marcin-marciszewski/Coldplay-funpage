@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Head Full of Dreams</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="logo hvr-grow"><a href="index.html"><img src="../assets/coldplaylogo.jpg"></a></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="row">
+                    <ul id="nav" class="list in-line clearfix">
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="music.html" class=" hvr-shrink"><i class="glyphicon glyphicon-volume-up" aria-hidden="true"></i><span>Music</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3  menuitem">
+                            <a href="video.html" class=" hvr-shrink"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>Video</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="pictures.html" class=" hvr-shrink"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i><span>Pictures</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="concerts.html" class=" hvr-shrink"><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>Concerts</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 songs">
+                <img src="../assets/covers/A_Head_Full_of_Dreams.png">
+                <h1>A Head Full of Dreams</h1>
+                <ul id="playlist">
+                    <li class="current-song"><a href="../mp3/A_Head_Full_of_Dreams/01. A Head Full of Dreams.mp3">A Head Full of Dreams</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/02. Birds.mp3">Birds</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/Coldplay - Hymn For The Weekend (Official Video).mp3">Hymn for the Weekend</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/04. Everglow.mp3">Everglow</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/05. Adventure of a Lifetime.mp3">Adventure of a Lifetime</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/06. Fun (feat. Tove Lo).mp3">Fun</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/07. Kaleidoscope.mp3">Kaleidoscope</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/08. Army of One.mp3">Army of One</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/09. Amazing Day.mp3">Amazing Day</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/10. Colour Spectrum.mp3">Colour Spectrum</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/10. Colour Spectrum.mp3">Up & Up</li>
+                </ul>
+                  <div class="row">
+                    <div class="col-xs-12 audio-player">
+                        <audio src="" controls id="audioPlayer"></audio>
+
+                        <script>
+                            audioPlayer();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Our social</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#"><i class="log1 fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log2 fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log3 fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log4 fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X&Y</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="logo hvr-grow"><a href="index.html"><img src="../assets/coldplaylogo.jpg"></a></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="row">
+                    <ul id="nav" class="list in-line clearfix">
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="music.html" class=" hvr-shrink"><i class="glyphicon glyphicon-volume-up" aria-hidden="true"></i><span>Music</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3  menuitem">
+                            <a href="video.html" class=" hvr-shrink"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>Video</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="pictures.html" class=" hvr-shrink"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i><span>Pictures</span></a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 menuitem">
+                            <a href="concerts.html" class=" hvr-shrink"><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>Concerts</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+         <div class="row">
+            <div class="col-xs-12 songs ">
+                <img src="../assets/covers/X_&_Y.jpg">
+                <h1>X&Y</h1>
+                <ul id="playlist">
+                    <li class="current-song"><a href="../mp3/_X_&_Y/01.Coldplay - Square One.mp3">Square One</a></li>
+                    <li><a href="../mp3/_X_&_Y/02.Coldplay - What If.mp3">What If</a></li>
+                    <li><a href="../mp3/_X_&_Y/03.Coldplay - White Shadows.mp3">White Shadows</a></li>
+                    <li><a href="../mp3/_X_&_Y/Fix You.mp3">Fix You</a></li>
+                    <li><a href="../mp3/_X_&_Y/Talk.mp3">Talk</a></li>
+                    <li><a href="../mp3/_X_&_Y/X  Y.mp3">X&Y</a></li>
+                    <li><a href="../mp3/_X_&_Y/07.Coldplay - Speed Of Sound.mp3">Speed of sound</a></li>
+                    <li><a href="../mp3/_X_&_Y/08.Coldplay - A Message.mp3">A Message</a></li>
+                    <li><a href="../mp3/_X_&_Y/09.Coldplay - Low.mp3">Low</a></li>
+                    <li><a href="../mp3/_X_&_Y/10.Coldplay - Hardest Part.mp3">The Hardest Part</a></li>
+                    <li><a href="../mp3/_X_&_Y/11.Coldplay - Swallowed In The Sea.mp3">Swallowed in the Sea</a></li>
+                    <li><a href="../mp3/_X_&_Y/12.Coldplay - Twisted Logic.mp3">Twisted Logic</a></li>
+                    <li><a href="../mp3/_X_&_Y/13.Coldplay - Till Kingdom Come.mp3">Til Kingdom Come</a></li>
+                </ul>
+                <div class="row">
+                    <div class="col-xs-12 audio-player">
+                        <audio src="" controls id="audioPlayer"></audio>
+
+                        <script>
+                            audioPlayer();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Our social</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#"><i class="log1 fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log2 fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log3 fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="log4 fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
