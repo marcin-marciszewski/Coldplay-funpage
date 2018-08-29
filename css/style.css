@@ -7,7 +7,7 @@ header {
     height: 25vh;
 }
 
-.logo  {
+.logo {
     display: block;
     text-align: center;
     transition: all .5s ease-in-out;
@@ -47,7 +47,7 @@ header {
     text-align: center;
     padding: 0;
     list-style-type: none;
-    
+
 }
 
 .menuitem a {
@@ -97,7 +97,7 @@ section {
 
 }
 
-section img {
+.artist img {
     max-height: 100%;
     max-width: 100%;
     height: auto;
@@ -119,8 +119,8 @@ h1 {
     font-weight: 300;
     color: #ffffff;
     letter-spacing: 5px;
-    margin-bottom: 50px;
-   
+    margin-bottom: 100px;
+
 }
 
 
@@ -130,7 +130,6 @@ h1 {
 footer {
     background-color: #000000;
     color: #fafafa;
-    margin: 0;
 }
 
 .uppercase {
@@ -186,6 +185,20 @@ ul {
 
 /*--------------------------------------------------------Music*/
 
+.songs img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    border: 6px solid #ffffff;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
 .songs ul {
     padding: 40px;
 
@@ -198,7 +211,7 @@ ul {
     font-family: "Exo", sans-serif;
     font-size: 30px;
     margin-bottom: 10px;
-    
+
 }
 
 .audio-player {
@@ -215,7 +228,7 @@ ul {
 }
 
 #playlist .current-song a {
-    color: 		#FFA500;
+    color: #FFA500;
 }
 
 audio {
@@ -236,4 +249,22 @@ h2 {
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 100px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------Pictures*/
+
+.pic-item img {
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
 }
