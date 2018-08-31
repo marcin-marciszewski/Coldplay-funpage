@@ -259,12 +259,82 @@ h2 {
 /*--------------------------------------------------------Pictures*/
 
 .pic-item img {
-    height: 65%;
-    width: 65%;
+    height: 70%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
+    border: 6px solid #ffffff;
+}
 
+/*--------------------------------------------------------Concerts*/
 
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #ffffff;
+    border-left: 1px solid;
+    text-align: center;
+}
 
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+}
+
+.timeline-item h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    font-size: 40px;
+    
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: -120px;
+    top: 30px;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.timeline-item::after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -10px;
+    border-radius: 12px;
+    content: '';
+    background: #ffffff;
+    border: ridge;
+}
+
+.timeline-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    border: 6px solid #ffffff;
+    border-radius: 5%;
+}
+
+.concerts18 p {
+     text-align: center;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 100px;
+    letter-spacing: 4px
 }
