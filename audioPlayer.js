@@ -1,3 +1,6 @@
+  //------------------------This script was sourced from: https://www.youtube.com/watch?v=vtZCMTtP-0Y&t=326s----------------------------------
+
+ 
      function audioPlayer(){
             var currentSong = 0;
             $("#audioPlayer")[0].src = $("#playlist li a")[0];
