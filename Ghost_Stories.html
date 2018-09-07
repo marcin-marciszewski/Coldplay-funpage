@@ -13,8 +13,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script src="audioPlayer.js"></script>
 </head>
 
 <body>
@@ -61,16 +59,9 @@
                     <li><a href="../mp3/Ghost Stories/10 All Your Friends.mp3">All Your Friends</a></li>
                     <li><a href="../mp3/Ghost Stories/11 Ghost Story.mp3">Ghost Story</a></li>
                 </ul>
-             <div class="row">
+                <div class="row">
                     <div class="col-xs-12 audio-player">
-                        
-<!------------------------This script was sourced from: https://www.youtube.com/watch?v=vtZCMTtP-0Y&t=326s---------------------------------->
-                        
                         <audio src="" controls id="audioPlayer"></audio>
-
-                        <script>
-                            audioPlayer();
-                        </script>
                     </div>
                 </div>
             </div>
@@ -90,6 +81,13 @@
 
         </div>
     </footer>
+    <!------------------------This script was sourced from: https://www.youtube.com/watch?v=vtZCMTtP-0Y&t=326s---------------------------------->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+   <script src="scripts/audioPlayer.js" type="text/javascript"></script>
+    <script>
+        audioPlayer();
+    </script>
 </body>
 
 </html>

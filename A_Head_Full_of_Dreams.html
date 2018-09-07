@@ -13,8 +13,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script src="audioPlayer.js"></script>
 </head>
 
 <body>
@@ -49,27 +47,21 @@
                 <img src="../assets/covers/A_Head_Full_of_Dreams.png">
                 <h1>A Head Full of Dreams</h1>
                 <ul id="playlist">
-                    <li class="current-song"><a href="../mp3/A_Head_Full_of_Dreams/01. A Head Full of Dreams.mp3">A Head Full of Dreams</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/02. Birds.mp3">Birds</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/Coldplay - Hymn For The Weekend (Official Video).mp3">Hymn for the Weekend</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/04. Everglow.mp3">Everglow</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/05. Adventure of a Lifetime.mp3">Adventure of a Lifetime</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/06. Fun (feat. Tove Lo).mp3">Fun</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/07. Kaleidoscope.mp3">Kaleidoscope</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/08. Army of One.mp3">Army of One</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/09. Amazing Day.mp3">Amazing Day</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/10. Colour Spectrum.mp3">Colour Spectrum</li>
-                    <li><a href="../mp3/A_Head_Full_of_Dreams/10. Colour Spectrum.mp3">Up & Up</li>
+                    <li class="current-song"><a href="../mp3/A_Head_Full_of_Dreams/headdreams.mp3">A Head Full of Dreams</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/birds.mp3">Birds</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/hymn.mp3">Hymn for the Weekend</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/everglow.mp3">Everglow</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/adventure.mp3">Adventure of a Lifetime</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/fun.mp3">Fun</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/kaleidoscope.mp3">Kaleidoscope</li>
+                    <li><a href="..//mp3/A_Head_Full_of_Dreams/army.mp3">Army of One</li>
+                    <li><a href="..//mp3/A_Head_Full_of_Dreams/amaday.mp3">Amazing Day</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/spectrum.mp3">Colour Spectrum</li>
+                    <li><a href="../mp3/A_Head_Full_of_Dreams/up.mp3">Up & Up</li>
                 </ul>
                   <div class="row">
                     <div class="col-xs-12 audio-player">
-                        
- <!------------------------This script was sourced from: https://www.youtube.com/watch?v=vtZCMTtP-0Y&t=326s---------------------------------->
- 
                         <audio src="" controls id="audioPlayer"></audio>
-                        <script>
-                            audioPlayer();
-                        </script>
                     </div>
                 </div>
             </div>
@@ -80,7 +72,7 @@
             <div class="col-xs-12 col-sm-12">
                 <h5 class="uppercase general-sub">Our social</h5>
                 <ul class="list-inline social-links">
-                   <li><a target="_blank" href="https://www.facebook.com/coldplay/?fb_dtsg_ag=AdwItJAnI8Zgc76BdkDo4IKneeqef3qOLOzRsLeCWocSNg%3AAdzojHAox5DOUoH4m-lr4XEdp4WXZDNI24RQE_wW8iUMAw"><i class="log1 fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/coldplay/?fb_dtsg_ag=AdwItJAnI8Zgc76BdkDo4IKneeqef3qOLOzRsLeCWocSNg%3AAdzojHAox5DOUoH4m-lr4XEdp4WXZDNI24RQE_wW8iUMAw"><i class="log1 fa fa-facebook"></i></a></li>
                     <li><a target="_blank" href="https://twitter.com/coldplay"><i class="log2 fa fa-twitter"></i></a></li>
                     <li><a target="_blank" href="https://www.instagram.com/coldplay/?hl=en"><i class="log3 fa fa-instagram"></i></a></li>
                     <li><a target="_blank" href="https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw"><i class="log4 fa fa-youtube"></i></a></li>
@@ -88,7 +80,15 @@
             </div>
 
         </div>
-    </footer>
+        </footer>
+        <!------------------------This script was sourced from: https://www.youtube.com/watch?v=vtZCMTtP-0Y&t=326s---------------------------------->
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+   <script src="scripts/audioPlayer.js" type="text/javascript"></script>
+    <script>
+        audioPlayer();
+    </script>
 </body>
 
 </html>
