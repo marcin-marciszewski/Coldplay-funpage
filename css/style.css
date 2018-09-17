@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------Header*/
 
 header {
@@ -84,7 +82,7 @@ header {
 
 }
 
-/*--------------------------------------------------------Section*/
+/*--------------------------------------------------------Index Section*/
 
 section {
     background-color: #000000;
@@ -110,8 +108,8 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 h1 {
 
@@ -132,7 +130,7 @@ h1 {
 footer {
     background-color: #000000;
     color: #fafafa;
-  
+
 }
 
 .uppercase {
@@ -159,7 +157,7 @@ footer {
     color: #ffffff;
     background-color: #000000;
     position: relative;
-  
+
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -236,7 +234,7 @@ ul {
     color: #FFA500;
 }
 
-    
+
 
 
 iframe {
@@ -257,15 +255,17 @@ h2 {
 
 
 
-
-
+.drop-list {
+    color: #000000;
+}
 
 /*--------------------------------------------------------Pictures*/
 
 .pic-item img {
-    height: 70%;
-    width: 90%;
-    display: block;
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
@@ -280,7 +280,7 @@ h2 {
     color: #ffffff;
     border-left: 1px solid;
     text-align: center;
-    
+
 }
 
 .timeline-item p {
@@ -295,7 +295,7 @@ h2 {
     padding: 0;
     font-family: "Exo", sans-serif;
     font-size: 40px;
-    
+
 }
 
 .timeline-item::before {
@@ -334,7 +334,7 @@ h2 {
 }
 
 .concerts18 p {
-     text-align: center;
+    text-align: center;
     text-transform: uppercase;
     font-family: "Exo", sans-serif;
     font-weight: 100;
@@ -342,4 +342,161 @@ h2 {
     color: #ffffff;
     margin-bottom: 100px;
     letter-spacing: 4px
+}
+
+/*---------------------------------------Humburber Button------*/
+
+
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+
+#menu a
+{
+  text-decoration: none;
+  color: #000000;
+  
+  transition: color 0.3s ease;
+}
+
+#menu a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #ffffff;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
 }
