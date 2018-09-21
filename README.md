@@ -15,12 +15,13 @@ User Stories:
 - A user who is interested in going to the next concert can check the  "Concerts" section where I can find information and dates regarding concerts in this year.
 - All user interested in recent news about the band can go to all social media links placed at the bottom of every subpage.
 
+Mockups:
 
-![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/FRONT%20PAGE.png?raw=true)
-![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/MUSIC.png?raw=true)
-![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/VIDEO.png?raw=true)
-![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/PICUTERS.png?raw=true)
-![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/CONCERTS.png?raw=true)
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/FRONT%20PAGE.png?raw=true)<br><br>
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/MUSIC.png?raw=true)<br><br>
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/VIDEO.png?raw=true)<br><br>
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/PICUTERS.png?raw=true)<br><br>
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/CONCERTS.png?raw=true)<br><br>
 
 
 
