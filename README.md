@@ -1,4 +1,4 @@
-<h1>Coldplay Fun Page<h1>
+<h1>Coldplay Fun Page</h1>
 
    The project was created to show a wider audience the work of Coldplay band. The created website should present how diverse and colorful is the music composed by the group and how enthusiastic are their members. We can find the "Music" section where the whole discography of the band is and listen to all their songs. In the "Video" section we can enjoy many music videos. Visiting the "Pictures" we can have occasion to see photos from one of the live performances. In the "Concerts" section we can check where the band is going to perform later this year. 
    All visual presentation is simple and clean to focus the attention of visitors on the work of the band. The group members, especially the leader are the main interested of the funs, therefore the website provides a wide range of information about them, encourage visitors to spend more time browsing through the content.
@@ -16,7 +16,13 @@ User Stories:
 - All user interested in recent news about the band can go to all social media links placed at the bottom of every subpage.
 
 
-Add mock-up.
+<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/FRONTPAGE.png">
+<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/MUSIC.png">
+<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/VIDEO.png">
+<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/PICUTERS.png">
+<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/CONCERTS.png">
+
+
 
 <h2>Features</h2>
 
@@ -44,33 +50,33 @@ JQuery has been added to the code to make many components work properly. The scr
 The project has been tested on multiple browsers and devices.
 The HTML5 and CSS3 code have also been validated with C3W Markup Validator and C3W CSS Validator.
 
-1.  Getting information about band members.
-a) Every link was tested separately if really lead to external source about a particular band member and the source is opened in a new tab.
-b)  The front page was tested on many devices and resolutions to make sure that the content is adjusted properly to the screen size and the pictures resize accordingly.
+1.  Getting information about band members.<br>
+a) Every link was tested separately if really lead to external source about a particular band member and the source is opened in a new tab.<br>
+b)  The front page was tested on many devices and resolutions to make sure that the content is adjusted properly to the screen size and the pictures resize accordingly.<br>
 
-2. Listening to the discography of the band.
-a) Every link on the subpage was tested and is working correctly.  Pictures resize adequately to the screen size.
-b) The audio player used on the subpages of the "Music" section is working correctly and has access to all the song.
-c) JavaScript used to manage playlists stops the audio player to open a new song in a new tab instead, every song is played on the same page and the current song is highlighted. All the song in the playlist are played one by one.
+2. Listening to the discography of the band.<br>
+a) Every link on the subpage was tested and is working correctly.  Pictures resize adequately to the screen size.<br>
+b) The audio player used on the subpages of the "Music" section is working correctly and has access to all the song.<br>
+c) JavaScript used to manage playlists stops the audio player to open a new song in a new tab instead, every song is played on the same page and the current song is highlighted. All the song in the playlist are played one by one.<br>
 
-3. Watching video clips in the video. 
-a) Every video link is opening properly and in the right size.
-b) The full-screen option is available and works correctly.
-c) Thanks to implemented javascript, individual videos change size adequately to the resolution of the screen, preserving right proportions. 
+3. Watching video clips in the video.<br> 
+a) Every video link is opening properly and in the right size.<br>
+b) The full-screen option is available and works correctly.<br>
+c) Thanks to implemented javascript, individual videos change size adequately to the resolution of the screen, preserving right proportions.<br> 
 
-4. Browsing the photo library.
-a) All pictures load properly.
-b) Slideshow used on the subpage shows individual images in the right order and intended amount of time. 
-c) The size of the pictures adjusts correctly to the resolution of the screen.
+4. Browsing the photo library.<br>
+a) All pictures load properly.<br>
+b) Slideshow used on the subpage shows individual images in the right order and intended amount of time.<br> 
+c) The size of the pictures adjusts correctly to the resolution of the screen.<br>
 
-5. Concerts.
-a) All pieces of information are displayed properly.
-b) The structure of the subpage has a form of a timeline.
-c) The size of the pictures adjusts correctly to the resolution of the screen.
+5. Concerts.<br>
+a) All pieces of information are displayed properly.<br>
+b) The structure of the subpage has a form of a timeline.<br>
+c) The size of the pictures adjusts correctly to the resolution of the screen.<br>
 
-6. Social media links.
-a) All the links lead to the real accounts of the band. 
-b) Links have been tested on every subpage of the project and work properly. 
+6. Social media links.<br>
+a) All the links lead to the real accounts of the band.<br> 
+b) Links have been tested on every subpage of the project and work properly.<br> 
 
 
 <h2>Deployment</h2> 
@@ -81,8 +87,8 @@ This solution provides reliability and better control, which are important durin
 <h2>Credits</h2>
 
 <h3>Content</h3>
-- Links to information about the band members lead to Wikipedia.com.
-- 
+-Links to information about the band members lead to Wikipedia.com.
+
 <h3>Media</h3>
 
 - All photos used in this project were obtained from Google.com.
