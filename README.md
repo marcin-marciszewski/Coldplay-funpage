@@ -16,11 +16,11 @@ User Stories:
 - All user interested in recent news about the band can go to all social media links placed at the bottom of every subpage.
 
 
-<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/FRONTPAGE.png">
-<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/MUSIC.png">
-<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/VIDEO.png">
-<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/PICUTERS.png">
-<img src="https://bronek.hostinghouse.pl:2222/CMD_FILE_MANAGER/domains/marcin-marciszewski.tech/public_ftp/CONCERTS.png">
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/FRONT%20PAGE.png?raw=true)
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/MUSIC.png?raw=true)
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/VIDEO.png?raw=true)
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/PICUTERS.png?raw=true)
+![alt text](https://github.com/szantilas87/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/mockups/CONCERTS.png?raw=true)
 
 
 
