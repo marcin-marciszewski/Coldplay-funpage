@@ -82,7 +82,7 @@ b) Links have been tested on every subpage of the project and work properly.<br>
 
 <h2>Deployment</h2> 
 
-The project was deployed on a hosting server and is possible to find under domain: marcin-marciszewski.tech 
+The project was deployed on a hosting server and is possible to find under domain: http://coldplayfunpage.tk
 This solution provides reliability and better control, which are important during the deployment process and further usage.
 
 <h2>Credits</h2>
