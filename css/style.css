@@ -262,8 +262,8 @@ h2 {
 /*--------------------------------------------------------Pictures*/
 
 .pic-item img {
-    height: 60vh;
-    width: 80vw;
+    height: 40vh;
+    width: 60vw;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -353,11 +353,7 @@ h2 {
  * 24th of November 2015
  * MIT License
  *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
+*/
 
 
 #menu a
@@ -436,10 +432,7 @@ h2 {
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -447,27 +440,20 @@ h2 {
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu
 {
   position: absolute;
@@ -479,7 +465,6 @@ h2 {
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -493,9 +478,7 @@ h2 {
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
+
 #menuToggle input:checked ~ ul
 {
   transform: none;
